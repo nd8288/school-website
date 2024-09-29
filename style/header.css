@@ -1,0 +1,474 @@
+#nav{
+  height: 60px;
+  width: 100%;
+  background-color:#FFFF00;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+#nav img{
+  height: 56px;
+  width: 80px;
+  padding: 2px;
+  padding-left: 4px;
+}
+#menu{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+ 
+}
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
+#menu a{
+  text-decoration: none;
+  color: black;
+}
+
+section{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+#contact{
+  background-color: black;
+  z-index: 2;
+}
+#about{
+  background-color: #1e1e1e;
+}
+.pera p{
+  color: white;
+  text-shadow: 0 2px 5px rgba(44, 247, 26, 1);
+}
+#home{
+  display: flex;
+  align-items:center;
+}
+h1{
+  font-size: 50PX;
+  width:100%;
+}
+#about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 180px;
+}
+.pic{
+  height: 250px;
+  width: 250px;
+  margin: 60px;
+  margin-top: 80px;
+ 
+}
+#about p{
+  font-size: 50px;
+}
+.box{
+  display: flex;
+  z-index: 20;
+  height: 50vh;
+  width: 100%;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 11 ;
+}
+.pera{
+margin-bottom: 50px;
+width: 100%;
+display: contents;
+justify-content: center;
+
+}
+.pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.pic{
+ height: 80%;
+ width: 20%;
+ background-color: blue;
+ background-size: cover;
+ background-position: center;
+ 
+}
+#pic2{
+  background-image: url(https://www.shutterstock.com/image-photo/portrait-indian-female-teacher-looking-260nw-2387750073.jpg);
+  border-radius: 10%;
+}
+#pic3{
+  background-image: url(https://www.shutterstock.com/image-photo/portrait-indian-male-teacher-standing-260nw-1765602338.jpg);
+  border-radius: 10%;
+  
+}
+#pic1{
+  background-image: url(https://t3.ftcdn.net/jpg/01/90/54/30/360_F_190543073_bz6SjkIIx6tEWOquw9oPECIzrPfJtwhL.jpg);
+  border-radius: 10%;
+}
+.t{
+  text-align: center;
+  padding-top: 30px;
+  background-color: #FFFF00;
+  height: 100%;
+  opacity: 0;
+  transition: 0.75s;
+  border-radius: 10%;
+  
+}
+#academics h2{
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  color:white;
+
+} 
+#academics h3{
+padding-top: 10px;
+font-size: 25px;
+
+}
+
+.e{
+  color: orange;
+}
+.t h4{
+  font-size:20px ;
+  font-weight: 100;
+}
+.pic:hover .t{
+  opacity: 1;
+  
+}
+.pic:hover{
+  transform: rotate3d(2,2,0,20deg);
+  transition: 0.75s;
+}
+table{
+  width: 70%;
+}
+th{
+  padding: 10px;
+  color: #ff8c00;
+}
+td{
+  text-align: center;
+  padding: 10px;
+  color: #FFD700;
+}
+
+#academics{
+display: flex;
+flex-direction: column;
+justify-content:right;
+align-items: center;
+padding-top: 65px;
+background-color: #222;
+}
+#contact {
+  background-color: #222;
+  color: white;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+}
+
+input:focus, textarea:focus {
+  border-color: #FFD700; /* Gold color on focus */
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff9706;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #FFC107; /* Darker gold on hover */
+}
+
+.map-container {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 600px; /* Adjust max-width to your preference */
+}
+
+.map-container h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#subjects {
+  padding: 60px 20px;
+  background-color: #f0f8ff; /* Light blue background */
+  text-align: center;
+}
+
+.subjects-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  margin-top: 20px;
+}
+
+.subject {
+  background-color: #15ff00; /* Gold color for subject boxes */
+  border-radius: 15px;
+  padding: 20px;
+  width: 30%; /* Adjust width as needed */
+  margin: 10px; /* Space between boxes */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+  opacity: 0; /* Start hidden for animation */
+}
+
+.subject h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.subject p {
+  font-size: 16px;
+}
+
+.subject ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0; /* Space above the list */
+}
+
+.subject li {
+  margin: 5px 0; /* Space between links */
+}
+
+.subject a {
+  text-decoration: none;
+  color: #000; /* Black color for links */
+  font-weight: bold;
+}
+
+.subject a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+#welcome-container {
+  position: relative;
+  overflow: hidden;
+  height: 100vh; /* Full height for vertical centering */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px; /* Perspective for 3D effect */
+  background: linear-gradient(135deg, #ffda44, #ff8c00); /* Gradient background */
+}
+
+.welcome-message {
+  font-size: 4rem; /* Large font size */
+  font-weight: bold;
+  color: #f1a707;
+  text-shadow: 2px 2px 10px rgba(17, 237, 10, 0.715); /* Shadow for depth */
+  position: absolute;
+  white-space: nowrap; /* Prevent wrapping */
+  transform-style: preserve-3d; /* Enable 3D transformations */
+}
+
+.welcome-message h1 {
+  display: inline-block; /* Inline-block for better animation control */
+  margin: 0;
+  transform: translateZ(50px); /* Move message forward in 3D space */
+  transition: transform 0.3s ease; /* Smooth transition for hover */
+}
+
+.welcome-message:hover {
+  transform: translateZ(100px) rotateY(15deg); /* 3D hover effect */
+}
+
+.welcome-container {
+  animation: slide 10s linear infinite; /* Infinite sliding animation */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Move left */
+  }
+}
+
+
+#gallery {
+ 
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+  background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+
+  box-shadow: 0 10px 30px rgba(145, 231, 6, 0.214);
+  display: flex;
+  flex-wrap: wrap;
+ 
+
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 5px rgba(44, 247, 26, 0.755);
+  color: white;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(20, 247, 35, 0.4);
+  transition: transform 0.3s;
+  perspective: 1000px; /* For 3D effect */
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1); /* Zoom effect */
+}
+
+.gallery-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Overlay */
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.3s;
+  border-radius: 10px;
+}
+
+.gallery-item:hover::after {
+  opacity: 1; /* Show overlay on hover */
+}
+
+.gallery-item h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #FFD700; /* Gold color */
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.gallery-item:hover h3 {
+  opacity: 1; /* Show title on hover */
+}
+#announcements {
+  
+  width: 100%;
+  padding: 40px;
+  background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.announcement-item {
+  background-color: #42cf1e; /* Slightly lighter than the background */
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 20px;
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+}
+
+.announcement-item:hover {
+  transform: scale(1.05); /* Slightly zoom on hover */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+}
+
+.announcement-item h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: orange; /* Gold color */
+}
+
+.announcement-item p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.announcement-date {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+  color: #2c2222; /* Lighter grey */
+}
